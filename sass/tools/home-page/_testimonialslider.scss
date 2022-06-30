@@ -1,0 +1,133 @@
+
+//HOMEPAGE TESTIMONIAL SLIDER (COMBOS0FT)
+
+.testimonial_panel {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 20px;
+  opacity: 0.8;
+
+  img{
+    margin-top: 59px;
+    margin-bottom: 1px;
+  }
+
+  .testimonial_designation {
+    margin-top: 0px!important;
+  }
+
+  .comments{
+    margin-top: 26px;
+    margin-bottom: 48px;
+  }
+   blockquote {
+    display: block;
+    font-size: 15px;
+    position: relative;
+     span {
+       .fa{
+         color: #FFFFFF;
+       }
+     }
+  }
+
+  .carousel-indicators{
+    li{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+
+  .carousel-item {
+    padding: 60px 110px 60px 110px;
+  }
+
+  @media (max-width: 700px){
+    .carousel-item{
+      padding: 80px;
+    }
+  }
+
+
+  @media (max-width: 580px){
+    .carousel-item{
+      padding: 70px;
+    }
+  }
+
+  @media (max-width: 480px){
+    .carousel-item{
+      padding: 60px;
+    }
+  }
+  @media (max-width: 380px){
+    .carousel-item{
+      padding: 50px;
+    }
+  }
+
+  .carousel-item {
+    .img-box {
+      width: 159px;
+    }
+  }
+
+  .carousel-control-prev {
+    img{
+      margin-right: 175px;
+      margin-bottom: 58px;
+      @media (max-width: 1440px){
+        margin-right: 100px;
+      }
+      @media (max-width: 1024px){
+        margin-right: 55px;
+      }
+      @media (max-width: 768px){
+        margin-right: 20px;
+      }
+      @media (max-width: 480px){
+        margin-right: 0;
+        width: 18px;
+        height: 26px;
+      }
+      @media (max-width: 380px){
+        margin-right: 0;
+        width: 18px;
+        height: 26px;
+      }
+
+    }
+  }
+
+  .carousel-control-next {
+    img{
+      margin-left: 175px;
+      margin-bottom: 58px;
+      @media (max-width: 1440px){
+        margin-left: 100px;
+      }
+      @media (max-width: 1024px){
+        margin-left: 55px;
+      }
+      @media (max-width: 768px){
+        margin-left: 20px;
+      }
+      @media (max-width: 480px){
+        margin-left: 0;
+        width: 18px;
+        height: 26px;
+      }
+      @media (max-width: 380px){
+        margin-left: 0;
+        width: 18px;
+        height: 26px;
+      }
+    }
+  }
+
+}

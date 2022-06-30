@@ -1,0 +1,165 @@
+
+//HOMEPAGE ICON SECTION (COMBOSOFT)
+
+.icon_section {
+  background-color: #2E2E32;
+  padding: 196px 0 132px 0;
+  .icon-doc{
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    .icon-doc-text{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+}
+@media (max-width: 1600px){
+  .icon_section {
+    background-color: #2E2E32;
+    padding: 196px 100px 132px 100px;
+  }
+}
+
+
+@media (max-width: 1280px){
+  .icon_section{
+    padding: 160px 100px 96px 100px;
+  }
+}
+
+@media (max-width: 1100px){
+  .icon_section{
+    padding: 160px 100px 96px 100px;
+  }
+}
+
+@media (max-width: 1024px){
+  .icon_section{
+    padding: 126px 60px 60px 60px;
+  }
+}
+
+@media (max-width: 840px){
+  .icon_section{
+    padding: 126px 40px 60px 40px;
+  }
+}
+
+@media (max-width: 798px){
+  .icon_section{
+    padding: 126px 24px 60px 24px;
+  }
+}
+
+@media (max-width: 768px){
+  .icon_section{
+    padding: 126px 20px 50px 20px;
+    .icon-doc{
+      .mbl-icon{
+        img {
+          width: 100px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .icon_section{
+    padding: 90px 10px 10px 10px;
+    .icon-mbl-view{
+
+        .icon-doc-text{
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          margin: 0 10px;
+        }
+        .mbl-icon{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 15px;
+        }
+
+
+    }
+  }
+}
+@media (max-width: 767px){
+  .icon_section{
+    padding: 90px 10px 10px 10px;
+    .icon-mbl-view{
+        .col-rev{
+          display: flex;
+          flex-direction: column-reverse;
+        }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .icon_section {
+    padding: 90px 10px 10px 10px;
+
+    .icon-mbl-view {
+      .icon-doc-text {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        margin: 0 10px;
+      }
+
+      .mbl-icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        img{
+          width: 100px;
+          height: auto;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .icon_section{
+    padding: 90px 10px 10px 10px;
+    .icon-mbl-view{
+      .col-rev{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .icon_section {
+    padding: 90px 10px 10px 10px;
+
+    .icon-mbl-view {
+      .mbl-icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        img{
+          width: 80px;
+          height: auto;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+

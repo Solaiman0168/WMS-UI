@@ -1,0 +1,272 @@
+
+//NAVBAR SECTION (COMBOSOFT)
+
+nav {
+  background-color: #2E2E32;
+  position: relative;
+  @media screen and (max-width: 480px){
+    .navbar-brand{
+      margin-right: -10rem;
+      img{
+        width: 70%;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: #17a2b8a8!important;
+    border-color: #17a2b8a8!important;
+    @media screen and (max-width: 480px){
+      .navbar-toggler-icon{
+        width: 1.4rem;
+        height: 1.4rem;
+      }
+    }
+  }
+
+  @media (min-width: 992px){
+    .search-icon{
+      display: none;
+    }
+    .mbl-search-box{
+      display: none;
+    }
+  }
+  @media (max-width: 991px){
+    .signin-signup{
+      justify-content: center!important;
+    }
+    .mbl-search-box {
+      display: none;
+    }
+  }
+
+
+  div {
+    ul {
+      font-size: 16px;
+      padding-right: 30px;
+      li{
+        letter-spacing: 1.5px;
+        a{
+          color: #FFFFFF!important;
+          font-family: Dosis, Regular;
+        }
+        a:hover, a:focus{
+          color: $btnbgColor!important;
+        }
+      }
+      li > a:active {
+        color: $btnbgColor!important;
+      }
+    }
+
+
+    form {
+      li{
+        list-style: none;
+        font-size: 22px;
+        .btn-signup{
+          color: $textColor;
+          border: 1px solid $btnbgColor;
+          padding: 3px 56px 3px 56px;
+          border-radius: 10px;
+          font-size: 22px;
+        }
+        .btn-signup:hover{
+          background-color: $btnbgColor;
+          color: $textColor;
+        }
+        .search-box {
+          position: absolute;
+          top: 73px;
+          left: -22px;
+          width: 100%;
+          max-height: 0;
+          z-index: 9999;
+          display: none;
+          transition: all 0.3s;
+
+          input[type="text"] {
+            width: 100%;
+            font-size: 16px;
+            padding: 4px 30px;
+            margin-left: 22px;
+            outline: 0;
+            height: 52px;
+            background-color: #2e2e32;
+            border-color: #08a7d000;
+            color: $textColor;
+            opacity: 80%;
+          }
+          ::placeholder{
+            color: $textColor;
+            opacity: 80%;
+          }
+          ::-ms-input-placeholder{
+            color: $textColor;
+            opacity: 80%;
+          }
+          ::-ms-input-placeholder{
+            color: $textColor;
+            opacity: 80%;
+          }
+
+        }
+
+      }
+
+      li:last-child{
+        margin-right: -15px;
+      }
+
+    }
+
+  }
+
+  @media screen and (max-width: 1440px){
+    div {
+      ul {
+        font-size: 16px;
+        li{
+          a{
+            color: $textColor!important;
+          }
+        }
+      }
+
+
+      form {
+        li{
+          .btn-signup{
+            padding: 6px 30px 6px 30px;
+            font-size: 16px;
+          }
+          .btn-signup:hover{
+            background-color: $btnbgColor;
+            color: $textColor;
+          }
+        }
+      }
+
+    }
+
+  }
+
+
+  @media screen and (max-width: 1024px){
+    div {
+      ul {
+        font-size: 16px;
+        li{
+          a{
+            color: $textColor!important;
+          }
+        }
+      }
+
+
+      form {
+        li{
+          .btn-signup{
+            padding: 3px 30px 3px 30px;
+            font-size: 16px;
+          }
+          .btn-signup:hover{
+            background-color: $btnbgColor;
+            color: $textColor;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+
+  @media screen and (max-width: 991px){
+    div {
+      //padding-left: 10px;
+      ul {
+        font-size: 16px;
+        margin-top: 10px;
+        border-top: 1px solid #212529;
+        padding: 5px 0;
+      }
+
+      form {
+        padding-top: 15px;
+        padding-bottom: 9px;
+        border-top: 1px solid #212529;
+        display: block!important;
+        li{
+          .signup {
+            background-color: #343a40;
+            color: #FFFFFF;
+            //margin-left: -8px;
+            //line-height: 40px;
+          }
+          .signup:hover{
+            background-color: #343a40;
+            color: #0062cc;
+          }
+
+          &:first-child{
+            display: none;
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    div {
+      ul {
+        font-size: 16px;
+      }
+
+      form {
+        li{
+          list-style: none;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+}
+
+@media(max-width: 420px){
+  nav{
+    div{
+      #mbl-search-icon{
+        img{
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+
+@media(max-width: 375px){
+  nav{
+    div{
+      #mbl-search-icon{
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+

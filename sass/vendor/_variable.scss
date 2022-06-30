@@ -1,0 +1,53 @@
+
+//Template common class
+$wmsFont1: 'Roboto', sans-serif;
+$wmsFont2: 'Bebas Neue', cursive;
+$wmsFont3: 'Open Sans', sans-serif;
+$wmsFont4: 'Oswald', sans-serif;
+$wmsFont5: 'Roboto Condensed', sans-serif;
+$wmsFont6: 'Montserrat', sans-serif;
+$wmsFont7: 'Dosis', sans-serif;
+$wmsFont8: 'Noto Sans', sans-serif;
+$wmsFont9: 'Poppins', sans-serif;
+$btnbgColor: #08A7D0;
+$textColor: #FFFFFF;
+$productTextColor: #137EA4;
+
+
+//Template html body common class
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $wmsFont2;
+  position: relative;
+  h1,h2,h3,h4,h5,h6{
+    font-family: $wmsFont2;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    font-family: $wmsFont3;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    font-family: $wmsFont3;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  @media (min-width: 1200px) {
+      .container{
+        max-width: 1250px !important;
+      }
+   }
+
+
+  }
+
+
+

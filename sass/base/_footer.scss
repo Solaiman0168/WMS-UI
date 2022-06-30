@@ -1,0 +1,125 @@
+
+//FOOTER SECTION (COMBOSOFT)
+
+.footer_bg{
+  background-color: #09536D;
+  .footer-content{
+    padding: 60px 60px 30px 60px;
+    @media (max-width: 480px) {
+      padding: 113px 60px 64px 60px;
+    }
+    @media (max-width: 768px), (max-width: 1024px){
+      padding: 50px 20px 64px 30px;
+    }
+    .footer_des{
+      @media (max-width: 480px){
+        margin-bottom: 25px;
+      }
+      .site-link{
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-family: $wmsFont3;
+        @media (max-width: 480px){
+          font-size: 18px;
+        }
+      }
+      .media-link{
+        font-size: 25px;
+        margin-bottom: 10px;
+        @media (max-width: 480px){
+          font-size: 22px;
+        }
+      }
+
+      .footer_list{
+        li{
+          list-style: none;
+          line-height: 30px;
+          color: #FFFFFF;
+          font-family: $wmsFont3;
+          font-size: 15px;
+          @media (max-width: 480px){
+            font-size: 14px;
+          }
+          a{
+            text-decoration: none;
+            color: #FFFFFF;
+          }
+          a:hover{
+            color: skyblue;
+          }
+        }
+      }
+
+      .footer_li_con{
+        li{
+          list-style: none;
+          display: inline-block;
+          color: #FFFFFF;
+          padding-left: 19px;
+          padding-right: 19px;
+          @media (max-width: 1180px){
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          @media (max-width: 1080px){
+            padding-left: 12px;
+            padding-right: 12px;
+          }
+          @media (max-width: 991px){
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          @media (max-width: 768px){
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          &:first-child {
+            padding-left: 0;
+          }
+          &:last-child {
+            padding-right: 0;
+          }
+          a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 26px;
+            @media (max-width: 768px){
+              font-size: 20px;
+            }
+            @media (max-width: 480px){
+              font-size: 18px;
+            }
+            .fa-instagram:hover{
+              color: #e4405f;
+            }
+            .fa-twitter:hover{
+              color: #55acee;
+            }
+            .fa-facebook:hover{
+              color: #3b5999;
+            }
+            .fa-globe:hover{
+              color: deepskyblue;
+            }
+          }
+        }
+
+      }
+
+
+    }
+
+
+    .copyright{
+      font-size: 14px;
+      padding-top: 20px;
+      color: $textColor;
+      @media (max-width: 767px){
+        padding-top: 0;
+      }
+    }
+  }
+}
+
+
