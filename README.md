@@ -1,2 +1,3 @@
 # WMS-UI
-Warehouse Management System UI 
+Warehouse Management System website frontend design
+
